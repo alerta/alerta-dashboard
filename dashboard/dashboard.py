@@ -1,11 +1,5 @@
 
-import logging
-
 from flask import Flask
-
-LOG = logging.getLogger(__name__)
-
-logging.basicConfig(format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", filename='/tmp/dashboard.log')
 
 app = Flask(__name__)
 app.config.from_object(__name__)

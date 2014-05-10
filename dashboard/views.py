@@ -4,7 +4,6 @@ import os
 from flask import request, render_template, send_from_directory
 
 from dashboard import app
-from dashboard import LOG
 
 
 @app.route('/dashboard/<path:filename>')
