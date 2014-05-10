@@ -1,0 +1,5 @@
+exclude .gitignore
+global-exclude *.pyc
+include alerta/dashboard/dashboard.wsgi
+recursive-include dashboard/templates *
+recursive-include dashboard/assets *
