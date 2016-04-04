@@ -3,10 +3,10 @@
 {% block navigation %}
             <div class="nav-collapse">
                 <ul class="nav">
-                    <li class="active"><a href="console.html">Production</a></li>
-                    <li class=""><a href="null.html">Development</a></li>
-                    <li class=""><a href="null.html">Infrastructure</a></li>
-                    <li class=""><a href="null.html">About</a></li>
+                    <li class=""><a href="index.html">Production</a></li>
+                    <li class=""><a href="./dev.html">Development</a></li>
+                    <li class=""><a href="infra.html">Infrastructure</a></li>
+                    <li class=""><a href="about.html">About</a></li>
                 </ul>
             </div><!--/.nav-collapse -->
 {% endblock %}
@@ -98,7 +98,7 @@
 
         heartbeatAlerts();
 
-        var env_filter = '&environment=PROD|DEV|INFRA';
+        var env_filter = '&environment=~Production|Development|Infrastructure';
         var asiFilters = {
             'Web':      '&service=Web',
             'Common':   '&service=Common',
