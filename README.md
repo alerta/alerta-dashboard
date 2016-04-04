@@ -17,7 +17,7 @@ Installation
 
 To install the v2 dashboard, clone the repository and run:
 
-    $ sudo python setup.py install
+    $ python setup.py install
 
 
 Configuration
@@ -58,4 +58,4 @@ All dependencies are included, however, for reference they are:
 License
 -------
 
-Copyright (c) 2014 Nick Satterly. Available under the MIT License.
+Copyright (c) 2014,2016 Nick Satterly. Available under the MIT License.

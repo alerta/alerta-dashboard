@@ -7,7 +7,7 @@ import dashboard
 setuptools.setup(
     name="alerta-dashboard",
     version=dashboard.__version__,
-    description='Alerta dashboard WSGI application',
+    description='Alerta dashboard v2',
     url='https://github.com/alerta/alerta-dashboard',
     license='MIT',
     author='Nick Satterly',

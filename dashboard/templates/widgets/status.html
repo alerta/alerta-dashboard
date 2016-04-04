@@ -49,7 +49,7 @@
 
     function updateStatusIndicator(filter, refresh) {
 
-        $.getJSON(API_URL + '/api/alerts?callback=?&'
+        $.getJSON(API_URL + '/alerts?callback=?&'
                 + filter + status + limit + from, function (data) {
 
             var more = '';

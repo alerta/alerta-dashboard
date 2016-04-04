@@ -72,6 +72,10 @@ table {
   background-color: #1E90FF; // dodger-blue
 }
 
+.severity-indeterminate {
+  background-color: silver;
+}
+
 .severity-normal {
   background-color: #00CC00;
 }
@@ -81,6 +85,10 @@ table {
 }
 
 .severity-debug {
+  background-color: #7554BF;
+}
+
+.severity-auth {
   background-color: #7554BF;
 }
 
